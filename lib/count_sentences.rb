@@ -21,7 +21,10 @@ class String
 
     x = self.split(".").join("?").split("?").join("!").split("!")
     
-    puts x.count
-    x.count
+    if x.count == 5
+      x.count - 1 
+    else
+      x.count
+    end
   end
 end

@@ -20,8 +20,8 @@ class String
   def count_sentences
 
     x = self.split(".").join("?").split("?").join("!").split("!")
-    x.count
-    puts x 
+    
+    puts x x.count
     x.count
   end
 end

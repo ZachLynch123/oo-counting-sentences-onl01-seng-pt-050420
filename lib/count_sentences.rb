@@ -21,7 +21,7 @@ class String
 
     x = self.split(".").join("?").split("?").join("!").split("!")
     
-    puts x x.count
+    puts x.count
     x.count
   end
 end
